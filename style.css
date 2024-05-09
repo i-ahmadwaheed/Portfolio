@@ -82,8 +82,8 @@ ul {
     }
 
     .navbar li {
-        margin: 10px 0;
-        padding: 10px 0;
+        margin: 10px 5px;
+        padding: 10px 4px;
     }
     .navbar img {
         height: auto;
@@ -153,7 +153,7 @@ span h1 {
     background-color: rgba(248, 69, 4, 0.993);
 }
 
-@media only screen and (max-width: 928px) {
+@media only screen and (max-width: 988px) {
     .hero-sec {
         height: auto;
         padding: 50px 20px; /* Adjust spacing */
@@ -208,28 +208,6 @@ span h1 {
     font-size: 1rem;
     margin: 2px 40px;
 }
-
-@media only screen and (max-width: 928px) {
-    .about {
-        flex-direction: column;
-        height: auto;
-        /* padding: 50px 20px; Adjust spacing */
-    }
-
-    .about img {
-        height: auto;/* Adjust image height */
-        max-height: 25vh;
-    }
-
-    .about h1 {
-        font-size: 1.5rem;
-    }
-
-    .about p {
-        font-size: 8px;
-    }
-}
-
 /* SKILLS SECTION */
 .skill-sec {
     display: flex;
@@ -257,10 +235,35 @@ span h1 {
     padding: 10px;
     margin-top: 30px;
 }
-@media only screen and (max-width: 928px) {
+
+
+@media only screen and (max-width: 998px) {
+    .about {
+        /* flex-direction: column; */
+        height: auto;
+        max-height: 60vh;
+        display: flex;
+        width: auto;
+
+        /* padding: 50px 20px; Adjust spacing */
+    }
+
+    .about img {
+        height: auto;/* Adjust image height */
+        max-height: 25vh;
+    }
+
+    .about h1 {
+        font-size: 1.5rem;
+    }
+
+    .about p {
+        font-size: 8px;
+    }
     .skill-sec {
-        align-items: center;
-        justify-content: space-around;
+        /* align-items: center;
+        justify-content: space-around; */
+        margin: 0 10px;
     }
     
     .skill-card {
@@ -275,8 +278,9 @@ span h1 {
         height: auto;
         max-height: 25px;
     }
-
 }
+
+
 
 /* OTHER SECTIONS... */
 
